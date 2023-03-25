@@ -25,7 +25,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
-import { PORTAL_URL } from "../constants";
+// import { PORTAL_URL } from "../constants";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useViewportScroll } from "framer-motion";
@@ -374,7 +374,7 @@ export default function Header() {
                 colorScheme="brand"
                 variant="outline"
                 size="sm"
-                onClick={() => window.open(PORTAL_URL)}
+                onClick={() => window.open(PORTAL_URL = "https://app-niveshkro-new.netlify.app/signin")}
               >
                 Goto your Dashboard
               </Button>
