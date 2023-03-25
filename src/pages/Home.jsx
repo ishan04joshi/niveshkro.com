@@ -58,7 +58,7 @@ const Carosuel = lazy(() => import("../components/Carosuel"));
 
 const MotionContainer = motion(Container);
 
-const WhyInvestorsLovesUs = () => {
+const WhyInvestorLovsUs = () => {
   return (
     <Stack spacing={6} pt={6}>
       <Stack spacing={1}>
