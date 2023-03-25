@@ -22,7 +22,7 @@ import { IoIosPeople } from "react-icons/io";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
 import MovingText from "react-moving-text";
-import { PORTAL_URL } from "../constants";
+// import { PORTAL_URL } from "../constants";
 import homehero from "../lotties/homehero.json";
 import { useNavigate } from "react-router-dom";
 
@@ -92,7 +92,7 @@ export default function CallToActionWithVideo() {
               colorScheme={"red"}
               bg={"red.400"}
               _hover={{ bg: "red.500" }}
-              onClick={() => window.open(PORTAL_URL)}
+              onClick={() => window.open(PORTAL_URL = "https://app-niveshkro-new.netlify.app/")}
             >
               Get started
             </Button>

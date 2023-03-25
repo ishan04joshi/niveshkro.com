@@ -58,6 +58,8 @@ import dayjs from "dayjs";
 import isBetween from "dayjs/plugin/isBetween";
 import { toIndianCurrency } from "../utils";
 
+const PORTAL_URL = "https://app-niveshkro-new.netlify.app/";
+
 dayjs.extend(isBetween);
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
