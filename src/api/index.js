@@ -1,12 +1,10 @@
 import Axios from "axios";
 import useStore from "../store/store";
-// import { backendURL } from "../constants";
+import { backendURL } from "../constants";
 export const prefix = "/api/v1";
-export const baseurl = "https://backend-new-u3cs3.ondigitalocean.app/";
+export const baseurl = backendURL;
 export const url = baseurl + prefix;
 export const API = Axios.create({ baseURL: url, withCredentials: true });
-
-// const baseURL ="https://backend-new-u3cs3.ondigitalocean.app/";
 
 API.interceptors.response.use(
   (res) => {

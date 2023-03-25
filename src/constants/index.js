@@ -10,6 +10,7 @@
 
 // !! DEVELOPMENT
 
-export const WEBSITE_URL = "https://nivesh-landing-new.netlify.app/";
-export const PORTAL_URL = "https://app-niveshkro-new.netlify.app/";
-export const backendURL = "https://backend-new-u3cs3.ondigitalocean.app/";
+export const WEBSITE_URL = "https://nivesh-landing.netlify.app";
+export const PORTAL_URL = "https://nivesh-frontend.netlify.app";
+export const backendURL = "https://backend-dssdj.ondigitalocean.app/";
+

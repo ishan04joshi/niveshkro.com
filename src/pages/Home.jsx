@@ -58,7 +58,7 @@ const Carosuel = lazy(() => import("../components/Carosuel"));
 
 const MotionContainer = motion(Container);
 
-const WhyInvestorLovsUs = () => {
+const WhyInvestorsLovesUs = () => {
   return (
     <Stack spacing={6} pt={6}>
       <Stack spacing={1}>
@@ -68,7 +68,7 @@ const WhyInvestorLovsUs = () => {
           fontWeight="extrabold"
           textAlign={"center"}
         >
-          Why investor Love Us ?
+          Why investors Loves Us ?
         </Heading>
         <Text fontSize="xs" color="gray.500" textAlign={"center"}>
           niveshkro funds are the combination of stocks, bonds, ETF & mutual
