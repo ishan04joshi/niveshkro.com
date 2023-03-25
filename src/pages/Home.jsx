@@ -252,7 +252,7 @@ const FaqSection = () => {
   return (
     <Stack spacing={3}>
       <Heading fontSize="3xl" color="gray.700" fontWeight="extrabold">
-        Why investors Loves Us ?
+        Why investor Love Us ?
       </Heading>
 
       <Accordion>
