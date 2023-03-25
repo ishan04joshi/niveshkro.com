@@ -374,7 +374,7 @@ export default function Header() {
                 colorScheme="brand"
                 variant="outline"
                 size="sm"
-                onClick={() => window.open(PORTAL_URL = "https://app-niveshkro-new.netlify.app/signin")}
+                onClick={() => window.open("https://app-niveshkro-new.netlify.app/signin")}
               >
                 Goto your Dashboard
               </Button>
